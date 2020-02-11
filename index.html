@@ -1,0 +1,47 @@
+<html>
+  <title>My homepage</title>
+  <head>
+
+  </head>
+  <body>
+    <p id="cmps"><p>
+    <center>
+      <h1>Kobe's Place</h1>
+      <img src="images/lebron.jpg" alt="lebron" height= "250" width="400">
+    </center>
+    <!-- Date and Time JS -->
+    <center>
+      <script>
+        var day = new Date();
+        document.write("The day of the week is " + day);
+
+      </script>
+    </center>
+    <center>
+    <!-- Button -->
+    <button onclick="funcGreeting()">Submit</button>
+    <button onclick="funcRandomNumber()">Random</button>
+    <!-- Function -->
+    <script>
+      function funcGreeting(){
+        document.getElementById("cmps").innerHTML = "Welcome";
+      }
+    </script>
+    <script>
+      function funcRandomNumber(){
+        document.getElementById("cmps").innerHTML = Math.random();
+      }
+    </script>
+  </center>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
